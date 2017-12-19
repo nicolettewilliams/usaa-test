@@ -40,7 +40,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 .top-section{
-	background-image: url(/Users/nicolettewilliams/Desktop/EDS_Test_Assets/Assets/intro_background.jpg);
+	background-image: url(Assets/intro_background.jpg);
 	background-size: cover;
 	height: 100%;
 }
