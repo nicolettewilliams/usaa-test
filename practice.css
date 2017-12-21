@@ -24,7 +24,7 @@ body{
 	margin: 0 15px;
 }
 .header{
-	background-image: url(/Users/nicolettewilliams/Desktop/EDS_Test_Assets/new-folder/brick.jpg);
+	background-image: url(Assets/brick.jpg);
 	background-size: cover;
 	height: 80%;
 	justify-content: center;
