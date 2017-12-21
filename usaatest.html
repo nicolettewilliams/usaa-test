@@ -7,9 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="usaatest.css">
 </head>
 <body>
-	<div class="container">
+	<div id="top" class="container">
 		<div class="top-section">
-			<a name="top"></a>
 			<div id="navbarflex">
 				<nav id="test" class="nav">
 					<div>	
@@ -20,9 +19,9 @@
 				  	<div class="nav-container">
 				    	<ul id="ul-list">
 					      	<li><a href="#">HOME</a></li>
-					      	<li><a href="#about">ABOUT</a></li>
-					      	<li><a href="#service">SERVICE</a></li>
-					      	<li><a href="#contact">CONTACT</a></li>
+					      	<li><a class="scroll" data-speed="1000" href="#about">ABOUT</a></li>
+					      	<li><a class="scroll" data-speed="1000" href="#service">SERVICE</a></li>
+					      	<li><a class="scroll" data-speed="1000" href="#contact">CONTACT</a></li>
 				    	</ul>
 				  	</div>
 				</nav>
@@ -31,11 +30,10 @@
 				<div>
 					<h1>WELCOME TO TEAM ONE</h1>
 					<h4>WE ARE AN AWESOME GROUP OF DESIGNERS AND DEVELOPERS</h4>
-					<button onclick="scrollToTop()"><img class="chevron" src="Assets/double-chevron-circle-outline.png"></button>
+					<a class="scroll" data-speed="1000" href="#about"><img class="chevron" src="Assets/double-chevron-circle-outline.png"></a>
 				</div>
 			</div>
 		</div>
-		<a name="about"></a>
 		<div id="about" class="about-title">
 			<div>
 				<h1>ABOUT US</h1>
@@ -73,8 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<a name="service"></a>
-		<div class="service-title">
+		<div id="service" class="service-title">
 			<div>
 				<h1>SERVICES</h1>
 				<i class="down"></i>
@@ -114,8 +111,7 @@
 				<div>Vestibulum tinidunt emin in pharetra malesuada. Duis semper magna metus electram accommodare.</div>
 			</div>
 		</div>
-		<a name="contact"></a>
-		<div class="contact-title">
+		<div id="contact" class="contact-title">
 			<div>
 				<h1>GET IN TOUCH</h1>
 				<i class="down"></i>
@@ -141,7 +137,7 @@
 		</div>
 		<div class="footer">
 			<div>
-				<a href="#top">
+				<a class="scroll" data-speed="1000" href="#top">
 					<img class="chevron upside-down" src="Assets/double-chevron-circle-outline.png">
 				</a>
 					<p>Team One</p>
