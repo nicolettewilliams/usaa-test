@@ -30,7 +30,47 @@
 				<div>
 					<h1>WELCOME TO TEAM ONE</h1>
 					<h4>WE ARE AN AWESOME GROUP OF DESIGNERS AND DEVELOPERS</h4>
-					<a class="scroll" data-speed="1000" href="#about"><img class="chevron" src="Assets/double-chevron-circle-outline.png"></a>
+					<button class="modalOpen">GET A QUOTE</button>
+			        <div class="modal">
+			            <div class="modal-body">
+			                <a href="javascript:;" class="close top-close">Close</a>
+			                <h3>Get a Quote</h3>
+			                <hr>
+			                <p class="modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                tempor incididunt ut labore et dolore magna aliqua. </p>
+			                <div class="quote-questions">
+				                <h4 class="modal-q">Is this a mobile or desktop application?</h4>
+				                <input type="radio" id="mobile" class="modal-select" name="mobileordesk" value="mobile">
+							    <label class="modal-label" for="mobile">Mobile</label>
+
+							    <input type="radio" id="desktop" class="modal-select" name="mobileordesk" value="desktop">
+							    <label class="modal-label" for="mobile">Desktop</label>
+							</div>
+							<div class="quote-questions dorm mobile">
+				                <h4 class="modal-q">Please select applicable mobile platform(s)</h4>
+								<input type="checkbox" id="ios" name="platform" value="">
+    							<label class="modal-label" for="ios">IOS</label>
+    							<input type="checkbox" id="android" name="platform" value="">
+    							<label class="modal-label" for="android">Android</label>
+    							<input type="checkbox" id="windows" name="platform" value="">
+    							<label class="modal-label" for="windows">Windows</label>
+							</div>
+							<div id="quote-questions" class="quote-questions dorm desktop">
+				                <h4 class="modal-q">Please provide details for desktop app below.</h4>
+								<textarea rows="4" cols="50"></textarea>
+							</div>
+							<hr>
+			                <a href="javascript:;" class="close bottom-close">Cancel</a>
+			                <button id="nextbutton" class="next-button">Next</button>
+			                <div class="modal-footer">
+			                	<p class="modal-footer-text">
+			                		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			                		quis nostrud exercitation ullamco laboris nisi ut aliquip .
+			                	</p>	
+			                </div>
+			            </div>
+			        </div>
 				</div>
 			</div>
 		</div>

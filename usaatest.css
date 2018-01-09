@@ -213,6 +213,116 @@ nav ul li a:hover {
   color: #808080;
   text-decoration: none;
 }
+.modalOpen{
+	background-color: #0071C4;
+	color: #FFF;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border: 1px solid #FFF;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+    overflow: auto;
+}
+hr{
+	border-top: 2px solid #eee;
+}
+.modal-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 90px auto;
+    width: 100%;
+    max-width: 800px;
+    background-color: #FFF;
+    padding: 30px;
+    color: #414952;
+    text-align: left;
+}
+.close {
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    color: #0071C4;
+    text-decoration: none;
+}
+.modal-p{
+	font-size: 18px;
+	color: #414951;
+}
+.modal-q{
+	color: #00024B;
+	margin-top: 40px;
+	text-align: center;
+}
+.bottom-close{
+    float: left;
+    background-color: #969C9F;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.next-button{
+	float: right;
+	background-color: #969C9F;
+	color: #FFF;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.next-button-enabled{
+	float: right;
+	background-color: #0071C4;
+	color: #FFF;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+    z-index: 9999999;
+}
+.quote-questions{
+	text-align: center;
+}
+.dorm{
+	display: none;
+}
+.vissible{
+	display: block;
+}
+.modal-label{
+	display: inline-block;
+	margin-right: 20px;
+}
+.modal-footer{
+	display: block;
+	margin-top: 90px;
+}
+.modal-footer-text{
+	padding-bottom: none;
+}
+@media (max-width: 900px){
+    .modal-body {
+        max-width: 80vw;
+    }
+}
 @media screen and (max-width: 960px) {
 	.header h1{
 		padding-top: 0;
